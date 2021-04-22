@@ -8,7 +8,10 @@ namespace WindowsServiceExample
 {
     class Program
     {
-        static void Main(string[] args) {
+        static void Main(string[] args)
+        {
+            var dataProcessor = new DataProcessor();
+            dataProcessor.Execute();
         }
     }
 }
